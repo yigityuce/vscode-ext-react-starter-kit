@@ -1,0 +1,10 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"outDir": "out",
+		"lib": ["es6"],
+		"rootDir": "src/extension",
+	},
+    "include": ["src/extension"],
+	"exclude": ["node_modules", "src/webview", ".vscode-test"]
+}
